@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Button Counter</title>
+    </head>
+    <button onclick = "counter()">Click me</button><br>
+    <script>
+        var count = 1;
+        function counter(){
+            document.getElementById("count").innerHTML = count++;
+            
+
+        }
+    </script>
+    You have pressed this button this many times: <span id = "count"></span>
+</html>
